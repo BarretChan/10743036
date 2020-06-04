@@ -23,13 +23,14 @@ $("#nav").load( "nav.html");
 <form  method="get" action="">
   <label for="phone">帳戶名稱:</label><br><br>
   <input type="text" name="id" /> <br><br>
-  <label for="phone">Your 密碼(8碼):(8 digits)</label><br><br>
+  <label for="phone">Your 密碼(8碼):</label><br><br>
   <input type="password" pattern="[a-zA-Z0-9]{8,}"> <br><br>
   <label for="phone">電話號碼(0900-000000)</label><br><br>
   <input type="tel" id="phone" name="phone" placeholder="0912-123123"pattern="[0-9]{4}-[0-9]{6}"> <br><br>
-  內容：<textarea name="Content"></textarea><br>
+  內容：<br>
+	<textarea name="Content"></textarea><br>
 <form>
-<select name="YourLocation">年齡</select>
+<p>年齡</p><select name="YourLocation">
 　<option value="Taipei">1</option>
 　<option value="Taoyuan">2</option>
 　<option value="Hsinchu">3</option>
@@ -47,14 +48,12 @@ $("#nav").load( "nav.html");
 <input type="checkbox" value="Movie" name="Interest"> 電影<br>
 <input type="checkbox" value="Food" name="Interest"> 美食
 </form>
-  <input type="submit"value="送出表單">
-</form>   
+  <input type="submit"value="送出表單"><br>
+</form>   <br>
 
 <a href="mailto:s10743036@ems.tcust.edu.tw?subject=hello to TCUST&body=HI, I AM A STUDENT IN TCUST">
  寄信給站長</a> <br>
 <a href="ftp://ftp.ntu.edu.tw/">台大FTP</a></a> <br>
-<a href="https://youtu.be/1FGxM-OZvrI"><img src="https://upload.wikimedia.org/wikipedia/en/4/46/Vertiente_Artiguista_Logo_77.jpg" border="0"></a>
-	
  </center>
 </body>
 </html>
